@@ -9,7 +9,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" ng-app="RestAPIModule">
 <head runat="server">
-    <title>Testing REST API using Angular</title>
+    <title>Testing REST API Using AngularJS</title>
 </head>
 <body>
     <form id="form1" runat="server">
