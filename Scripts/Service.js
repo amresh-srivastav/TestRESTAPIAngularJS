@@ -30,6 +30,10 @@ app.service("RestAPIService", function($http) {
         return $http.get("http://localhost:55486/affiliateAcctInfo.svc/getCurrentAccountInfo/" + affNum + "/" + addrType + "/" + adminNum);
     };
 
+    //Random code to learn the git source control system
+    this.isTestAccount = function (affNum) {
+        return (affNum == 10 || affNum == 11 || affNum == 382468);
+    }
 
     //Get Single Records  
     /*this.get = function(StudentID) {
